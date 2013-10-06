@@ -14,3 +14,4 @@ app/config/parameters.yml
 
 # Vagrant
 .vagrant
+settings/current.rb
