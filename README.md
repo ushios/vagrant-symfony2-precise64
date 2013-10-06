@@ -11,14 +11,14 @@ You develop the symfony2 application, We do the rest.
     - VMWareFusion [vagrant vmware fusion plugin]
 
 
-## Getting started.
+# Getting started.
 
-### Import boxes if you have not.
+## Import boxes if you have not.
 
     $ cd path/to/clone
     $ ./import_box.sh
 
-### Make your setting and launch vm.
+## Make your setting and launch vm.
 
     $ cd path/to/clone
     $ cp settings/sample.rb settings/yourname.rb
