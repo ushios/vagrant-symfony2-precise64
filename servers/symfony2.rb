@@ -15,12 +15,10 @@ $symfony2 = Proc.new{|conf|
 		chef.cookbooks_path = $cookbooks_path
 		chef.roles_path = $roles_path
 		
-		# add rolse (roles folder)		
-		chef.add_role 'vim'
+		# add rolse (roles folder)	
+		chef.add_role 'default'	
+		chef.add_role 'apache2'
 		
-		# add recipes (cookbooks folder)
-		chef.add_recipe 'vim'
-
 		chef.json = {}
 	end
 }

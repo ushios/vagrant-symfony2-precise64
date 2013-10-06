@@ -3,8 +3,22 @@ vagrant-symfony2
 
 You develop the symfony2 application, We do the rest.
 
+# Dependencies
 
-# Getting started.
+- Vagrant >= 1.3.4
+- Virtual machine
+    - VirtualBox
+    - VMWareFusion [vagrant vmware fusion plugin]
+
+
+## Getting started.
+
+### Import boxes if you have not.
+
+    $ cd path/to/clone
+    $ ./import_box.sh
+
+### Make your setting and launch vm.
 
     $ cd path/to/clone
     $ cp settings/sample.rb settings/yourname.rb
@@ -12,5 +26,5 @@ You develop the symfony2 application, We do the rest.
     
     … 
     
-    $ ln -s settings/yourname.rb settings/current.rb
+    $ ln -s yourname.rb settings/current.rb
     $ vagrant up
