@@ -17,9 +17,9 @@ $symfony2 = Proc.new{|conf|
 		
 		# add rolse (roles folder)	
 		chef.add_role 'default'
+		chef.add_role 'mysql'
 		chef.add_role 'php'	
 		chef.add_role 'apache2'
-
 		chef.json = {}
 	end
 }

@@ -10,3 +10,9 @@
 [submodule "cookbooks/git"]
 	path = cookbooks/git
 	url = https://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
