@@ -16,3 +16,6 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/composer"]
+	path = cookbooks/composer
+	url = https://github.com/ushios/cookbook-composer.git
