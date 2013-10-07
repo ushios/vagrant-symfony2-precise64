@@ -1,4 +1,4 @@
-vagrant-symfony2
+vagrant-symfony2-precise64
 ================
 
 You develop the symfony2 application, We do the rest.
