@@ -19,3 +19,6 @@
 [submodule "cookbooks/composer"]
 	path = cookbooks/composer
 	url = https://github.com/ushios/cookbook-composer.git
+[submodule "cookbooks/memcached"]
+	path = cookbooks/memcached
+	url = https://github.com/ushios/cookbook-memcached.git

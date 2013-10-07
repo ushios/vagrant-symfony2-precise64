@@ -4,5 +4,6 @@ run_list(
 	"recipe[apt]",
 	"recipe[git]",
 	"recipe[composer]",
+	"role[memcached]",
 	"role[vim]"
 )
