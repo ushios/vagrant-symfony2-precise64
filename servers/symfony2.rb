@@ -20,6 +20,7 @@ $symfony2 = Proc.new{|conf|
 		chef.add_role 'mysql'
 		chef.add_role 'php'	
 		chef.add_role 'apache2'
+		chef.add_role 'precise'
 		chef.json = {}
 	end
 }
