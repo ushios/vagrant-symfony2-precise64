@@ -33,7 +33,7 @@ How to setting using vim? see *Settings*.
 
 ## 3. Access to the app on web browser.
 
-    http://localhost:8080/app_dev.php
+`http://localhost:8080/app_dev.php`
 
 
 # Settings
