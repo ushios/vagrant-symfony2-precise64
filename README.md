@@ -13,12 +13,16 @@ You develop the symfony2 application, We do the rest.
 
 # Getting started.
 
-## 1.Import boxes if you have not.
+## 1. Clone this repo
+
+    $ git clone --recursive https://github.com/ushios/vagrant-symfony2-precise64.git path/to/clone 
+
+## 2.Import boxes if you have not.
 
     $ cd path/to/clone
     $ ./import_box.sh
 
-## 2.Make your setting and launch vm.
+## 3.Make your setting and launch vm.
 
     $ cd path/to/clone
     $ cp settings/sample.rb settings/yourname.rb
