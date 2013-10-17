@@ -22,3 +22,6 @@
 [submodule "cookbooks/memcached"]
 	path = cookbooks/memcached
 	url = https://github.com/ushios/cookbook-memcached.git
+[submodule "cookbooks/phpunit"]
+	path = cookbooks/phpunit
+	url = https://github.com/escapestudios/chef-phpunit.git

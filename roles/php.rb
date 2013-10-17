@@ -7,5 +7,6 @@ run_list(
 	"recipe[php::module_curl]",
 	"recipe[php::module_gd]",
 	"recipe[php::module_memcache]",
-	"recipe[composer]"
+	"recipe[composer]",
+	"recipe[phpunit::pear]"
 )
